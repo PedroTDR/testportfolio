@@ -1,0 +1,45 @@
+:root {
+    --primario: #D6E1F0;
+    --secundario: #FFFFFF;
+    --negro: #000000;
+}
+
+
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--primario);
+}
+
+section {
+    background-color: var(--secundario);
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: 45rem;
+    margin-right: 45rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.img-qr {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+
